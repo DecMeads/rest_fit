@@ -1,8 +1,9 @@
 from flask import Flask, jsonify,request
 
 app = Flask(__name__);
-@app.route("/workout", methods=["POST"])
 
+
+@app.route("/workout", methods=["POST"])
 def response():
     query = dict(request.form)['query']
     res = query + " Just curl bro"
