@@ -24,7 +24,7 @@ lxml==4.6.2
 MarkupSafe==1.1.1
 matplotlib==3.3.4
 numpy==1.19.5
-pandas==1.2.2
+pandas==1.1.5
 pandas-datareader==0.9.0
 Pillow==8.1.0
 pyaes==1.6.1
